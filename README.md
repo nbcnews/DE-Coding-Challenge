@@ -19,11 +19,11 @@ You will be working on following coding challenges
 
 **Note:** Feel free to change method signatures and constant/variable values.
 
-### [TODO A](https://github.com/nbcnews/DE-Coding-Challenge/blob/master/Challenge-2/src/processor/process_content.py#L11)
+### [TODO A](https://github.com/nbcnews/DE-Coding-Challenge/blob/master/Challenge-2/processor/process_content.py#L11)
 - [ ] Inspect bitcoin API Manually https://api.coinranking.com/v1/public/coin/1/history/30d
 - [ ] Read bitcoin API in the code and return data in JSON format (This API Contains last 30 days bitcoin data)
 
-### [TODO B](https://github.com/nbcnews/DE-Coding-Challenge/blob/master/Challenge-2/src/processor/process_content.py#L30)
+### [TODO B](https://github.com/nbcnews/DE-Coding-Challenge/blob/master/Challenge-2/processor/process_content.py#L30)
 - [ ] Transform API data into following JSON schema
 
       ` Output schema:
@@ -54,7 +54,7 @@ You will be working on following coding challenges
 
 - [ ] Return Transformed JSON.
 
-### [TODO C](https://github.com/nbcnews/DE-Coding-Challenge/blob/master/Challenge-2/src/processor/process_content.py#L41)
+### [TODO C](https://github.com/nbcnews/DE-Coding-Challenge/blob/master/Challenge-2/processor/process_content.py#L41)
 - [ ] Call required methods in the handler code
 - [ ] Check output matches and returns the expected value 
 

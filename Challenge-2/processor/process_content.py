@@ -2,7 +2,7 @@
 
 BITCOIN_HISTORY_API_URL = "https://api.coinranking.com/v1/public/coin/{}/history/{}"
 
-def fetch_bitcoin_historical_data(self, coin_id, timeframe):
+def fetch_bitcoin_historical_data(coin_id, timeframe):
     '''
         input: accepts timeframe as parameter
         fetch the bitcoin historical data from coinranking api for the given timeframe
@@ -11,7 +11,7 @@ def fetch_bitcoin_historical_data(self, coin_id, timeframe):
     # TODO A: Read Bitcoin API
 
 
-def get_bitcoin_historical_data(self, coin_id=1, timeframe='30d'):
+def get_bitcoin_historical_data(coin_id=1, timeframe='30d'):
     '''
         Accepts coin_id and timeframe as input parameter (if not provided defaulted to bitcoin id (1) and timeframe 30 days)
         By default retrieves last 30days bitcoin historical data and

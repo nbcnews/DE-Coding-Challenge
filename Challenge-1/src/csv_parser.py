@@ -22,13 +22,13 @@ def combine_columns(csv, column1, column2, **kwargs):
 if __name__ == '__main__':
     global output
 
-    csv = csvParser('/Users/random/Downloads/test.csv')
-    file = open('/Users/random/Downloads/test1.csv', 'a')
+    csv = csvParser('../sample.csv')
+    file = open('../test1.csv', 'a')
     file.write(str(csv)) # Write needs string not list
     csv = Split_Csv(csv)
     csv = combine_columns(csv, 0, 1)
     for line in csv:
-        file2 = open('/Users/random/Downloads/test2.csv','a')
+        file2 = open('../test2.csv','a')
         file2.write(str(line)) # write needs string not list
         file2.close()
     file.close()
